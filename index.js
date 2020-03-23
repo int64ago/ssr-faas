@@ -12,7 +12,7 @@ export default () => {
 
   return (
     <div>
-      <span>Hello Alpaca, it's {time}</span>
+      <span style={{ color: 'red' }}>Hello Alpaca, it's {time}</span>
       <button onClick={handleClick}>Update</button>
     </div>
   );
